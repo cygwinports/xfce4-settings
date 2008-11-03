@@ -1,0 +1,6 @@
+category: X11
+requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libdbus-glib_1_2 libexo03 libglade3 libintl8 libnotify libwnck1_22 libX11_6 libXcursor1 libxfce4util libxfcegui4 libxfconf0_0 libXi6 libxklavier12 libXrandr2
+sdesc: "Xfce4 preference panels"
+ldesc: "xfce4-settings is the front-end replacement for the mcs-manager. 
+It comes with several different components for configuring
+application-independent settings inside xfconf."
