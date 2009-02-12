@@ -7,20 +7,20 @@ application-independent settings inside xfconf.
 Runtime requirements:
   cygwin-1.5.25-15
   libdbus-glib_1_2-0.78-1
-  libexo0.3_0-0.3.92-1
-  libgdk_pixbuf2.0_0-2.14.6-1
+  libexo0.3_0-0.3.99.1-1
+  libgdk_pixbuf2.0_0-2.14.7-2
   libglade2.0_0-2.6.3-2
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.6-1
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
   libintl8-0.17-2
   libnotify1-0.4.5-1
   libwnck1_22-2.24.2-1
-  libX11_6-1.1.5-1
+  libX11_6-1.1.5-2
   libXcursor1-1.1.9-2
-  libxfce4kbd-private4-4.5.92-1
-  libxfce4util4-4.5.92-1
-  libxfcegui4_4-4.5.92-1
-  libxfconf0_2-4.5.92-1
+  libxfce4kbd-private4-4.5.99.1-1
+  libxfce4util4-4.5.99.1-1
+  libxfcegui4_4-4.5.99.1-1
+  libxfconf0_2-4.5.99.1-1
   libXi6-1.1.4-1
   libxklavier12-3.8-1
   libXrandr2-1.2.3-2
@@ -37,7 +37,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.92-1
+  xfce4-dev-tools-4.5.99.1-1
 
 Canonical website:
   http://www.xfce.org/
@@ -48,15 +48,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xfce4-settings-4.5.92-X-src.tar.bz2
+  unpack xfce4-settings-4.5.99.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xfce4-settings-4.5.92-X.cygport all
+  cygport ./xfce4-settings-4.5.99.1-X.cygport all
 
 This will create:
-  /usr/src/xfce4-settings-4.5.92-X-src.tar.bz2
-  /usr/src/xfce4-settings-4.5.92-X.tar.bz2
+  /usr/src/xfce4-settings-4.5.99.1-X-src.tar.bz2
+  /usr/src/xfce4-settings-4.5.99.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -79,12 +79,12 @@ Files included in the binary package:
   /usr/share/applications/xfce-ui-settings.desktop
   /usr/share/applications/xfce4-accessibility-settings.desktop
   /usr/share/applications/xfce4-settings-editor.desktop
-  /usr/share/doc/xfce4-settings-4.5.92/AUTHORS
-  /usr/share/doc/xfce4-settings-4.5.92/COPYING
-  /usr/share/doc/xfce4-settings-4.5.92/ChangeLog
-  /usr/share/doc/xfce4-settings-4.5.92/INSTALL
-  /usr/share/doc/xfce4-settings-4.5.92/NEWS
-  /usr/share/doc/xfce4-settings-4.5.92/TODO
+  /usr/share/doc/xfce4-settings-4.5.99.1/AUTHORS
+  /usr/share/doc/xfce4-settings-4.5.99.1/COPYING
+  /usr/share/doc/xfce4-settings-4.5.99.1/ChangeLog
+  /usr/share/doc/xfce4-settings-4.5.99.1/INSTALL
+  /usr/share/doc/xfce4-settings-4.5.99.1/NEWS
+  /usr/share/doc/xfce4-settings-4.5.99.1/TODO
   /usr/share/locale/de/LC_MESSAGES/xfce4-settings.mo
   /usr/share/locale/fi/LC_MESSAGES/xfce4-settings.mo
   /usr/share/locale/fr/LC_MESSAGES/xfce4-settings.mo
@@ -94,6 +94,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 4.5.99.1-1 -----
+Version bump for 4.6-rc1.
 
 ----- version 4.5.92-1 -----
 Version bump for 4.6-beta2.
