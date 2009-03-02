@@ -1,0 +1,3 @@
+inherit xfce4
+
+CYGCONF_ARGS="--enable-sound-settings"
