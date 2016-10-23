@@ -1,12 +1,14 @@
 inherit xfce4
 
 NAME="xfce4-settings"
-VERSION=4.12.0
+VERSION=4.12.1
 RELEASE=1
 CATEGORY="Xfce"
 SUMMARY="Xfce settings manager"
 DESCRIPTION="xfce4-settings is the front-end replacement for the mcs-manager.
 It comes with several different components for configuring application-
 independent settings inside xfconf."
+
+PATCH_URI="4.12.1-xsettings-defaults.patch"
 
 CYGCONF_ARGS="--enable-sound-settings"
